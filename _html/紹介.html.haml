@@ -1,0 +1,23 @@
+== ---
+layout: base
+title: 自己紹介
+language: ja
+permalink: /紹介/
+== ---
+= "\n\n"
+
+= "{% include welcome.html content=site.introduction.ja %}"
+
+.about<>
+  .about-title<>
+    .container<>
+      .title<>
+        %h2<> 自己紹介
+        %p<> 私に連絡することを <a href="/連絡/">連絡</a> ページにアクセスしてください。
+
+  .about-content<>
+    .container<>
+
+= "{% include latest.html posts=site.categories.ja language='ja' %}"
+
+%div<>

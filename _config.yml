@@ -1,0 +1,59 @@
+title:
+  en: Di Yang
+  zh: Di Yang
+  ja: Di Yang
+subtitle:
+  en: "Hello, I'm Di Yang."
+  zh: "Hello, I'm Di Yang."
+  ja: "Hello, I'm Di Yang."
+introduction:
+  en: >
+    <h1>Hello, I'm <a href="/about/">Di Yang</a>.</h1>
+    <h2></h2>
+  zh: >
+    <h1>Hello, I'm <a href="/about/">Di Yang</a>.</h1>
+    <h2></h2>
+  ja: >
+    <h1>Hello, I'm <a href="/about/">Di Yang</a>.</h1>
+    <h2></h2>
+keywords: "Di,Di Yang"
+author:
+  name: Di Yang
+  email: hello@diyang.org
+timezone: UTC
+encoding: utf-8
+
+url: https://www.diyang.org
+repository: https://github.com/diyangorg/diyangorg.github.io
+feed:
+  en: /feed.xml
+  zh: /订阅.xml
+  jp: /フィード.xml
+static_url: //cdn.diyang.org/static
+media_url: //cdn.diyang.org/media
+
+debug: false
+analytics: UA-34085887-3
+
+lsi: false
+safe: true
+highlighter: rouge
+permalink: /:year/:month/:title/
+relative_permalinks: false
+markdown: kramdown
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- Makefile
+- Rakefile
+- README.md
+- LICENSE
+
+defaults:
+- scope:
+    path: ""
+    type: posts
+  values:
+    is_post: true
+

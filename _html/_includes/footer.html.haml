@@ -1,0 +1,67 @@
+#footer.footer<>
+  .footer-content<>
+  .footer-bottom<>
+    .container<>
+      .footer-tree<>
+      .footer-menu<>
+        .row<>
+          .col-sm-3.col-xs-6<>
+            %ul{lang: "en"}<>
+              %li<>
+                %strong<> Hello
+              %li<>
+                %a{href: "/about/"}<> About
+              %li<>
+                %a{href: "/contact/"}<> Contact
+              %li<>
+                %a{href: "/archive/"}<> Archive
+              %li<>
+                %a{href: "{{ site.feed.en }}", target: "_blank"}<> Feed
+            %ul.hide{lang: "zh"}<>
+              %li<>
+                %strong<> Hello
+              %li<>
+                %a{href: "/关于/"}<> 关于
+              %li<>
+                %a{href: "/联系/"}<> 联系我
+              %li<>
+                %a{href: "/存档/"}<> 存档
+              %li<>
+                %a{href: "{{ site.feed.zh }}", target: "_blank"}<> 订阅
+            %ul.hide{lang: "ja"}<>
+              %li<>
+                %strong<> Hello
+              %li<>
+                %a{href: "/紹介/"}<> 紹介
+              %li<>
+                %a{href: "/連絡/"}<> 連絡
+              %li<>
+                %a{href: "/アーカイブ/"}<> アーカイブ
+          .col-sm-3.col-xs-6<>
+            %ul<>
+              %li<>
+                %strong{lang: "en"}<> Projects
+                %strong.hide{lang: "zh"}<> 项目
+                %strong.hide{lang: "ja"}<> プロジェクト
+          .clearfix.visible-xs-block<>
+          .col-sm-3.col-xs-6<>
+            %ul<>
+              %li<>
+                %strong{lang: "en"}<> Links
+                %strong.hide{lang: "zh"}<> 链接
+                %strong.hide{lang: "ja"}<> リンク
+              %li<>
+                %a{href: "https://github.com/diyangorg", target: "_blank"}<> Github
+          .col-sm-3.col-xs-6<>
+            %ul<>
+              %li<>
+                %strong{lang: "en"}<> Languages
+                %strong.hide{lang: "zh"}<> 语言
+                %strong.hide{lang: "ja"}<> 言語
+              %li<>
+                %a{href: "/about/"}<> English
+              %li<>
+                %a{href: "/关于/"}<> 中文
+              %li<>
+                %a{href: "/紹介/"}<> 日本語
+

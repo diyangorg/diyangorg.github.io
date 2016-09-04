@@ -1,0 +1,23 @@
+== ---
+layout: base
+title: About
+language: en
+permalink: /about/
+== ---
+= "\n\n"
+
+= "{% include welcome.html content=site.introduction.en %}"
+
+.about<>
+  .about-title<>
+    .container<>
+      .title<>
+        %h2<> About
+        %p<> Feel free to reach out to me on the <a href="/contact/">contact me</a> page.
+
+  .about-content<>
+    .container<>
+
+= "{% include latest.html posts=site.categories.en language='en' %}"
+
+%div<>
