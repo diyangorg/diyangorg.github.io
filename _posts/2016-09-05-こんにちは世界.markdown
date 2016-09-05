@@ -1,0 +1,9 @@
+---
+layout: post
+title: こんにちは世界
+cover: zen.jpg
+language: ja
+categories: [ja]
+---
+
+最初の投稿です。

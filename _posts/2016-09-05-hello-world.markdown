@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello, world!
+cover: amazon-creek.jpg
 language: en
 categories: [en]
 ---
