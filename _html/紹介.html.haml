@@ -18,6 +18,14 @@ permalink: /紹介/
   .about-content<>
     .container<>
 
+  .about-world
+    .about-world-title<>
+      .container<>
+        .title<>
+          %h2<> どこに行ってたの？
+          %p<> 世界を旅してみましょう！
+    = "{% include map.html %}"
+
 = "{% include latest.html posts=site.categories.ja language='ja' %}"
 
 %div<>

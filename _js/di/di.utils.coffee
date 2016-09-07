@@ -64,8 +64,51 @@ di.namespace 'di.utils', (exports) ->
         document_write = null
         document_writeln = null
 
+  default_map_options = 
+    backgroundColor: 'transparent'
+    zoomOnScroll: false
+    zoomButtons: false
+    panOnDrag: true
+    regionStyle:
+      initial:
+        fill: '#f9f9f9'
+        'fill-opacity': 1
+      selected:
+        fill: '#27ae60'
+        'fill-opacity': 1
+      selectedHover:
+        fill: '#27ae60'
+        'fill-opacity': 1
+    focusOn:
+      scale: 2
+      x: 0.5
+      y: 0.6
+
+  on_map_init = ->
+    map = $(@)
+    regions = {}
+    map.find('div').each ->
+      region = $(@).data('region')
+      return unless region
+      regions[region] = $(@).data('regions').split(',')
+    region = map.data('region')
+    debug.debug 'di.map', region, regions
+    init = ->
+      map.data 'jvm', new jvm.Map $.extend {}, default_map_options,
+        container: map
+        map: region
+        selectedRegions: regions[region]
+
+    return init() if window.jvm?
+
+    load di.settings.STATIC_URL + '/js/jvm.js',
+      complete: =>
+        load di.settings.STATIC_URL + '/js/jvm.' + region.toLowerCase() + '.js',
+          complete: init
+
   di.init ->
     analytics(di.settings.ANALYTICS)
 
     $('div.js-disqus').each on_disqus_init
     $('div.js-gist').each on_gist_init
+    $('div.js-map').each on_map_init

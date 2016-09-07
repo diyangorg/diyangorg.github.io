@@ -1,0 +1,85 @@
+- language: en
+  pgp: |
+    -----BEGIN PGP SIGNED MESSAGE-----
+    Hash: SHA1
+
+    My E-mail address is:
+    >>> '@'.join(['hello', '.'.join(['diyang', 'org'])])
+
+    Or, equivalently:
+    >>> '%s@%s.%s' % ('hello', 'diyang', 'org')
+
+    -----BEGIN PGP SIGNATURE-----
+    Version: GnuPG v1
+
+    iQIcBAEBAgAGBQJW/z/PAAoJECpRhCwGRA5ASuMP/AribbGLozrweEtH0ll1Zfj4
+    SNHGodcMuCtvheL6BqterhU7f6b2/A71wXDkeMA5cGetXBfN9T+m+LmYFNv2S3uP
+    qK4FCgs20QzCBpGoCqhUzYI2hNtnKFWNBq5qMkjp6TR6ZVdibBFIPpSMIZbgWRRP
+    3Dj53XjgDIG9n6XjtAe8TGObMNrdgJb8d8rXLNJBsO669K4sNpZChM/FsXYNBANW
+    JXwfa7ZKdmO6gZVMoFVmcvgCj2k8GXAMmDKQtmuYOoMeky7Glr3mfe/xkimafP0B
+    Mal5to2wEnsZIRrzkWf2Mo4rxi4xat0LxsTCa90NL/SUXZAoxfCNxWdbj6Qf97fD
+    bGH33HZGQ06RD+wRgOhiQZWirApd14Tgp8LU21uJqUqUDmbwpoANl4evbY5+UD+o
+    G4krV3ilFP3VTWmT2Wjuf16bBQznr3oFrelcpmbtEFx/aa7/v/7qpJ1i8KwkB90I
+    pwnm5g+t5XIqDzYbrQcoVuqz7xrnQY8azOGGoQpMZE6zsXZYH0Kpt6mALjIA5xeD
+    l6vh2pYXziUM5Up6aDZmr3AVlsrzuMegdRmGy0lSTs48r5GlN95cJmaN4GQPMhyz
+    eNR2Oc61uwu4bDYGrKuJt3+VN3GTnkO0R/AIQfEAbVAhYAKTo+o2l9SvFg+RLFPB
+    s49txvDsAYOq1CdlShqa
+    =pykJ
+    -----END PGP SIGNATURE-----
+- language: zh
+  pgp: |
+    -----BEGIN PGP SIGNED MESSAGE-----
+    Hash: SHA1
+
+    我的电子邮件地址是:
+    >>> '@'.join(['hello', '.'.join(['diyang', 'org'])])
+
+    或者说是:
+    >>> '%s@%s.%s' % ('hello', 'diyang', 'org')
+
+    -----BEGIN PGP SIGNATURE-----
+    Version: GnuPG v1
+
+    iQIcBAEBAgAGBQJW/0AsAAoJECpRhCwGRA5AqJoP/1qMEN6t1jL5pr4VQZpb2AzC
+    tY+ZMbLQRXQU4xN04zC24bSe/wOPk06k7voMNC6JYTOtm2AzttpGoKS1ssucfJ0o
+    EVYpzr2c2P2qLLq175bxCTw6dhJyZ+brgePt5oOaiRdQehawrZaBnYOxvfhbjKn5
+    H7mULp7hWLHddkdMAZi4zaFn+NMcsibaYKItf5vUHFgbAZ/FfgU9NbSVS9DWEy9a
+    HP7W4nP72j0tTt48arVZWLw6ThUTWxNAJHdFQhyv5dk2MJ3lVTLO1BnoLXLonmCE
+    L/KUMM0O3e7IBT5PM01srFAzZO7z9MZBJSNt6L7rsw7QDKmbQFmuplfZbAkId+Xi
+    bQBU5TuMdZ+hP99lXYNHulnLafR6O232lSuvCVxA5A6MUVONO00WGfkhMenV2uas
+    XJQcJ6yxvuRpkjolz1jPPvJsiwLxTNxIxGIN1nLJZLrg221QKJ4+dOHs6y9bcZ1u
+    XGk8d0IF6nwOk+Vh7QWv/7RbD107+ffxx7FKBphJ2EfeQs21nOdDw0paY8xq7HNx
+    xx6HsVi4wuRj3z21PnD92hEDRUwqwr2NppRorLMX+0uG79lXtrOd7C1RuPfdemhP
+    ctHS3AA1IjvVYTPZfLNE2AkOLeguMw+rz8kSqKCVwtuVBhXEK+fBVXXkM6i1m4SY
+    GOUjVEZcTzFz5kccy85o
+    =CV/R
+    -----END PGP SIGNATURE-----
+- language: ja
+  pgp: |
+    -----BEGIN PGP SIGNED MESSAGE-----
+    Hash: SHA1
+
+    私のメールアドレスは
+    >>> '@'.join(['hello', '.'.join(['diyang', 'org'])])
+
+    または
+    >>> '%s@%s.%s' % ('hello', 'diyang', 'org')
+
+    -----BEGIN PGP SIGNATURE-----
+    Version: GnuPG v1
+
+    iQIcBAEBAgAGBQJW/0fwAAoJECpRhCwGRA5AdSAQAI3tQQcVIu4fvvdMx69ihQeq
+    PH/i+Ak00Z0yTmvdcL/5UWPVfKwxpovjW1icqvufBffSRyE914bfJvZfZ1Zbemt7
+    YdyW5l4E7cYbn2nGiDWTlqFi88YE+OSqWaJ8yijy7cDpvqoU/g/Mkp2uEXt4aBnb
+    UtJ8SgSaXjhSMvvIZ78UEccMDCDjNA9CS0+1W8zmbVLruuCPp/XzeN1weasbJ7Sy
+    QKkZCoYyMFL7OrFC/4pkjF7ww1J/MjGfqCVYNx8M0luaaWGqoyeX9LUm03FExNDx
+    mva+Eg7QniOACBG6c4bUTH4CP/TwaQYqcSF3/grJbs/QFbehiapw3p3KL1E9ZZbW
+    GOrUtO4gF2WPtNNZUOk8xbQ7eDNtMfoLkEwj6OFv5HaDUoHleuZstPOrgFfgJIPM
+    ncNtGOqguyxZFFezXMdIXGBUyQlfrT7XfAqc5cqbYvFm1ZtEJCIzJseFawKGDEV9
+    kqjKhzycRDItybt2QvD/TYJEz9u6IXkk9RPr8h56aUkTw/8NZ4YLcrgpToHDtuXQ
+    FA+8+j6Qkb8/dBf/SQmJxaj/LJ+J/Z4lVJxWTh3VpaNDUQQ7Rb9tcY3737cr7/8M
+    GgnhPLgX1PNzBu85WQAozTc+DcF7elTsJKe5KzxUnQ0n8Yn6l5fnHOEXxIxKfxcg
+    w4PP7L2+jof6W97Vn2r/
+    =IzV8
+    -----END PGP SIGNATURE-----
+

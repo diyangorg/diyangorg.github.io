@@ -5,6 +5,7 @@ DI_SOURCES = \
 	fontawesome/fontawesome.css \
 	di/di.sass.css \
 	syntax.css \
+	jvm.css \
 
 .PHONY: all
 all: ../static/css/$(DI_TARGET)
