@@ -57,3 +57,4 @@ defaults:
   values:
     is_post: true
 
+primary_color: "#86ae22"

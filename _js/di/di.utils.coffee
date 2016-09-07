@@ -64,26 +64,6 @@ di.namespace 'di.utils', (exports) ->
         document_write = null
         document_writeln = null
 
-  default_map_options = 
-    backgroundColor: 'transparent'
-    zoomOnScroll: false
-    zoomButtons: false
-    panOnDrag: true
-    regionStyle:
-      initial:
-        fill: '#f9f9f9'
-        'fill-opacity': 1
-      selected:
-        fill: '#27ae60'
-        'fill-opacity': 1
-      selectedHover:
-        fill: '#27ae60'
-        'fill-opacity': 1
-    focusOn:
-      scale: 1.6
-      x: 0.5
-      y: 0.75
-
   on_map_init = ->
     map = $(@)
     regions = {}
@@ -94,10 +74,25 @@ di.namespace 'di.utils', (exports) ->
     region = map.data('region')
     debug.debug 'di.map', region, regions
     init = ->
-      map.data 'jvm', new jvm.Map $.extend {}, default_map_options,
+      map.data 'jvm', new jvm.Map
         container: map
         map: region
         selectedRegions: regions[region]
+        regionStyle:
+          selected:
+            fill: di.settings.PRIMARY_COLOR
+            'fill-opacity': 1
+          selectedHover:
+            fill: di.settings.PRIMARY_COLOR
+            'fill-opacity': 1
+        backgroundColor: 'transparent'
+        zoomOnScroll: false
+        zoomButtons: false
+        panOnDrag: true
+        focusOn:
+          scale: 1.6
+          x: 0.5
+          y: 0.75
 
     return init() if window.jvm?
 

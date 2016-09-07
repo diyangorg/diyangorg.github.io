@@ -7,6 +7,7 @@ DI_SOURCES = \
 	animation.css \
 	di/di.sass.css \
 	jvm.css \
+	lity.css \
 
 .PHONY: all
 all: ../static/css/$(DI_TARGET)
