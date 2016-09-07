@@ -16,13 +16,42 @@ di.namespace 'di.post', (exports) ->
         'data-lity': ''
         'data-lity-target': $(@).parents('a').attr('href')
 
+    # set up highlight
+    $.each content.find('img'), ->
+      alt = $(@).attr('alt')
+      return unless alt and alt.startsWith('# ')
+      $(@).attr 'alt', alt.substring(2).trim()
+
+      container = $(@).parents('.container')
+      parent = $(@)
+      while parent.parent()[0] != container[0]
+        parent = parent.parent()
+
+      newcontainer = null
+      container.children().each ->
+        unless newcontainer?
+          return if @ != parent[0]
+          highlight = $('<div/>').addClass('highlight').insertAfter container
+          parent.remove().appendTo highlight
+          newcontainer = $('<div/>').addClass('container').insertAfter highlight
+          return
+        $(@).remove().appendTo newcontainer
+
     # set up caption
     $.each content.find('img'), ->
-      caption = $(@).attr('alt')
+      caption = $(@).attr('alt').trim()
       return unless caption
-      after = $(@).parents('a') 
-      after = $(@) unless after?
-      $('<div/>').addClass('caption').html(caption).insertAfter after
+      
+      container = $(@).parents('.container,.highlight')
+      parent = $(@)
+      while parent.parent()[0] != container[0]
+        parent = parent.parent()
+
+      if container.is('.highlight')
+        $('<div/>').addClass('caption').html(caption).appendTo $('<div/>').addClass('container').insertAfter parent
+      else
+        $('<div/>').addClass('caption').html(caption).insertAfter parent
+      parent.addClass('captioned')
 
   di.init ->
     $('article.js-post').each on_post_init
