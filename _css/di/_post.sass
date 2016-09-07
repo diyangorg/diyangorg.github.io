@@ -77,22 +77,33 @@ article.post
     letter-spacing: .01rem
     font-weight: normal
     font-style: normal
-    font-family: Georgia, "Times New Roman", Times, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", serif
+    font-family: $post-font
     font-size: 22px
     line-height: 1.5
     overflow: hidden
     p, ul, ol, pre, iframe, blockquote, div.video-16-9
       display: block
       margin-bottom: 30px
-    blockquote p
-      margin-bottom: 0
+    blockquote
+      border-left: 5px solid $primary-color
+      padding-left: 20px
+      margin-left: 15px
+      p
+        margin-bottom: 0
     img, iframe
       display: block
       width: 100% !important
       max-width: 100% !important
+    div.caption
+      color: #999
+      font-style: italic
+      font-size: 11pt
+      font-family: $primary-font
+      padding-top: 5px
     div.gist div.gist
       margin-bottom: 30px
       font-size: 14px
+
 
   section.post-footer
     padding-bottom: 50px

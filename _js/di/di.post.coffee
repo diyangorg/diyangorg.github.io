@@ -10,6 +10,20 @@ di.namespace 'di.post', (exports) ->
       $(@).attr
         target: '_blank'
 
+    # add lity
+    $.each content.find('a img'), ->
+      $(@).attr
+        'data-lity': ''
+        'data-lity-target': $(@).parents('a').attr('href')
+
+    # set up caption
+    $.each content.find('img'), ->
+      caption = $(@).attr('alt')
+      return unless caption
+      after = $(@).parents('a') 
+      after = $(@) unless after?
+      $('<div/>').addClass('caption').html(caption).insertAfter after
+
   di.init ->
     $('article.js-post').each on_post_init
 

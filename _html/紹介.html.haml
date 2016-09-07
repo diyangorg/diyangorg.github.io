@@ -13,11 +13,13 @@ permalink: /紹介/
     .container<>
       .title<>
         %h2<> 自己紹介
-        %p<> 私に連絡することを <a href="/連絡/">連絡</a> ページにアクセスしてください。
+        %p<> 私に連絡することを<a href="/連絡/">連絡</a>ページにアクセスしてください。
 
   .about-content<>
     .container<>
       .about-timeline<>
+        .about-timeline-avatar<>
+          %i<>
         = "{% include timeline.html timeline=site.data.timeline.ja %}"
 
   .about-world

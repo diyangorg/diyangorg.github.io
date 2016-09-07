@@ -1,11 +1,11 @@
 title:
   en: Di Yang
-  zh: Di Yang
-  ja: Di Yang
+  zh: 杨迪
+  ja: アンディ
 subtitle:
   en: "Hello, I'm Di Yang."
-  zh: "Hello, I'm Di Yang."
-  ja: "Hello, I'm Di Yang."
+  zh: "你好，我是杨迪。"
+  ja: "こんにちは、私はアンディです。"
 introduction:
   en: >
     <h1>Hello, I'm <a href="/about/">Di Yang</a>.</h1>
@@ -16,7 +16,7 @@ introduction:
   ja: >
     <h1>こんにちは、私は<a href="/紹介/">アンディ</a>です。</h1>
     <h2>時間があるか分かりません。 私はいつも不思議な性格の方が好きだった。 すぐに諦めて昼寝をするかも知れない。 知らない。</h2>
-keywords: "Di,Di Yang"
+keywords: "Di,Di Yang,杨迪,アンディ"
 author:
   name: Di Yang
   email: hello@diyang.org
