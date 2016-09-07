@@ -102,9 +102,7 @@ di.namespace 'di.utils', (exports) ->
     return init() if window.jvm?
 
     load di.settings.STATIC_URL + '/js/jvm.js',
-      complete: =>
-        load di.settings.STATIC_URL + '/js/jvm.' + region.toLowerCase() + '.js',
-          complete: init
+      complete: init
 
   di.init ->
     analytics(di.settings.ANALYTICS)
