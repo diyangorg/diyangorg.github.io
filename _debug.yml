@@ -1,3 +1,4 @@
 debug: true
 analytics:
 static_url: /static
+media_url: /media

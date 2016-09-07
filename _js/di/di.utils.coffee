@@ -80,9 +80,9 @@ di.namespace 'di.utils', (exports) ->
         fill: '#27ae60'
         'fill-opacity': 1
     focusOn:
-      scale: 2
+      scale: 1.2
       x: 0.5
-      y: 0.6
+      y: 0.75
 
   on_map_init = ->
     map = $(@)

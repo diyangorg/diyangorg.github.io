@@ -1,8 +1,42 @@
+ul.timeline
+  display: block
+  margin: 0
+  padding: 0
+  li
+    display: block
+    list-style: none
+    border-left: 2px dashed #f1f1f1
+    margin-left: 30px
+    padding-left: 30px
+    padding-bottom: 50px
+    position: relative
+    > .timeline-title
+      font-weight: bold
+      color: #444
+    > .timeline-subtitle
+      font-style: italic
+      color: #666
+    > i
+      display: block
+      position: absolute
+      left: -11px
+      top: 0
+      width: 20px
+      height: 20px
+      border: 10px solid #27ae60
+      +border-radius(50%)
+      > i
+        display: block
+        position: absolute
+        left: 50%
+        top: 50%
+        z-index: 1
+        width: 12px
+        height: 12px
+        margin: -6px
+        border: 6px solid white
+        +border-radius(50%)
+    &:last-child
+      border-left: 2px dashed white
+      padding-bottom: 0
 
-.timeline
-  background: white
-  border-top: 1px dashed #ececec
-  border-bottom: 1px dashed #ececec
-
-  .container
-    margin: 50px auto

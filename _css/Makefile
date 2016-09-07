@@ -1,10 +1,11 @@
 DI_TARGET = di.css
 DI_SOURCES = \
 	opensans/opensans.css \
-	bootstrap/bootstrap.css \
+	normalize.css \
+	skeleton.css \
 	fontawesome/fontawesome.css \
+	animation.css \
 	di/di.sass.css \
-	syntax.css \
 	jvm.css \
 
 .PHONY: all

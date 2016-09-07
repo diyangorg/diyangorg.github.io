@@ -6,7 +6,6 @@ DI_SOURCES = \
 	jquery/jquery.imagesloaded.js \
 	jquery/jquery.pjax.coffee.js \
 	jquery/jquery.autotimestamp.coffee.js \
-	bootstrap/bootstrap.js \
 	di/di.coffee.js \
 	di/di.utils.coffee.js \
 	di/di.language.coffee.js \

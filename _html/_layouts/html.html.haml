@@ -16,4 +16,4 @@
   %body<>
     = "{{ content }}"
     = "{% include settings.html %}"
-    %script{src: "{{ site.static_url }}/{% if site.debug %}js/di.js?{{ site.time | date: '%s' }}{% else %}{{ site.time | date: '%s' }}/js/di.js{% endif %}", type: "text/javascript"}<>
+    %script{src: "{{ site.static_url }}/{% if site.debug %}js/di.js?{{ site.time | date: '%s' }}{% else %}{{ site.time | date: '%s' }}/js/di.js{% endif %}", type: "text/javascript", defer: true}<>
