@@ -1,5 +1,5 @@
 %ul.timeline<>
-  = "{% for event in include.timeline %}"
+  = "{% for event in include.events %}"
   %li<>
     %i<>
       %i<>
@@ -8,7 +8,7 @@
     .timeline-subtitle<> {{ event.subtitle }}
     = "{% endif %}"
     %p<> {{ event.content }}
-    = "{% if event.label %}"
-    %span.label.label-default<> {{ event.label }}
-    = "{% endif %}"
+    = "{% for label in event.labels %}"
+    %span.label.label-default.sp-right<> {{ label }}
+    = "{% endfor %}"
   = "{% endfor %}"

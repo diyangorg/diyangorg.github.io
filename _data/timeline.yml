@@ -1,36 +1,42 @@
 ---
-en:
-- title: Human Resources Assistant
-  subtitle: Changjiang Securities Co., Ltd
-  content: Researched and prepared materials for new employees and managers training. Maintained clear and professional communication with senior managers and directors. Attended training programs and created official documentation of materials covered in meeting.
-  label: work
-- title: Executive Search Assistant Internship
-  subtitle: HRnetOne Japan
-  content: Worked closely with industry expert consultants in conducting market research. Updated of market trends and movement in the database system. Made average 40 business development cold callings everyday.
-- title: Camp Leader / Teacher
-  subtitle: Peer Experience Exchange Rostrum (PEER)
-  content: Taught English and Japanese culture seminar to high school students. Managed program activities, such as team building games and field trips. Evaluated syllabus, analyzed course materials. Wrote the analysis of all the courses offered in the program.
-  label: volunteer
+- language: en
+  events:
+  - title: Human Resources Assistant
+    subtitle: Changjiang Securities Co., Ltd
+    content: Researched and prepared materials for new employees and managers training. Maintained clear and professional communication with senior managers and directors. Attended training programs and created official documentation of materials covered in meeting.
+    labels: [work]
+  - title: Executive Search Assistant Internship
+    subtitle: HRnetOne Japan
+    content: Worked closely with industry expert consultants in conducting market research. Updated of market trends and movement in the database system. Made average 40 business development cold callings everyday.
+  - title: Camp Leader / Teacher
+    subtitle: Peer Experience Exchange Rostrum (PEER)
+    content: Taught English and Japanese culture seminar to high school students. Managed program activities, such as team building games and field trips. Evaluated syllabus, analyzed course materials. Wrote the analysis of all the courses offered in the program.
+    labels: [volunteer]
 
-zh:
-- title: Human Resources Assistant
-  subtitle: Changjiang Securities Co., Ltd
-  content: Researched and prepared materials for new employees and managers training. Maintained clear and professional communication with senior managers and directors. Attended training programs and created official documentation of materials covered in meeting.
-- title: Executive Search Assistant Internship
-  subtitle: HRnetOne Japan
-  content: Worked closely with industry expert consultants in conducting market research. Updated of market trends and movement in the database system. Made average 40 business development cold callings everyday.
-- title: Camp Leader / Teacher
-  subtitle: Peer Experience Exchange Rostrum (PEER)
-  content: Taught English and Japanese culture seminar to high school students. Managed program activities, such as team building games and field trips. Evaluated syllabus, analyzed course materials. Wrote the analysis of all the courses offered in the program.
+- language: zh
+  events:
+  - title: Human Resources Assistant
+    subtitle: Changjiang Securities Co., Ltd
+    content: Researched and prepared materials for new employees and managers training. Maintained clear and professional communication with senior managers and directors. Attended training programs and created official documentation of materials covered in meeting.
+    labels: [work]
+  - title: Executive Search Assistant Internship
+    subtitle: HRnetOne Japan
+    content: Worked closely with industry expert consultants in conducting market research. Updated of market trends and movement in the database system. Made average 40 business development cold callings everyday.
+  - title: Camp Leader / Teacher
+    subtitle: Peer Experience Exchange Rostrum (PEER)
+    content: Taught English and Japanese culture seminar to high school students. Managed program activities, such as team building games and field trips. Evaluated syllabus, analyzed course materials. Wrote the analysis of all the courses offered in the program.
+    labels: [volunteer]
 
-ja:
-- title: Human Resources Assistant
-  subtitle: Changjiang Securities Co., Ltd
-  content: Researched and prepared materials for new employees and managers training. Maintained clear and professional communication with senior managers and directors. Attended training programs and created official documentation of materials covered in meeting.
-- title: Executive Search Assistant Internship
-  subtitle: HRnetOne Japan
-  content: Worked closely with industry expert consultants in conducting market research. Updated of market trends and movement in the database system. Made average 40 business development cold callings everyday.
-- title: Camp Leader / Teacher
-  subtitle: Peer Experience Exchange Rostrum (PEER)
-  content: Taught English and Japanese culture seminar to high school students. Managed program activities, such as team building games and field trips. Evaluated syllabus, analyzed course materials. Wrote the analysis of all the courses offered in the program.
-
+- language: ja
+  events:
+  - title: Human Resources Assistant
+    subtitle: Changjiang Securities Co., Ltd
+    content: Researched and prepared materials for new employees and managers training. Maintained clear and professional communication with senior managers and directors. Attended training programs and created official documentation of materials covered in meeting.
+    labels: [work]
+  - title: Executive Search Assistant Internship
+    subtitle: HRnetOne Japan
+    content: Worked closely with industry expert consultants in conducting market research. Updated of market trends and movement in the database system. Made average 40 business development cold callings everyday.
+  - title: Camp Leader / Teacher
+    subtitle: Peer Experience Exchange Rostrum (PEER)
+    content: Taught English and Japanese culture seminar to high school students. Managed program activities, such as team building games and field trips. Evaluated syllabus, analyzed course materials. Wrote the analysis of all the courses offered in the program.
+    labels: [volunteer]

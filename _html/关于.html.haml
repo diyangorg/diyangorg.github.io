@@ -20,7 +20,11 @@ permalink: /关于/
       .about-timeline<>
         .about-timeline-avatar<>
           %i<>
-        = "{% include timeline.html timeline=site.data.timeline.zh %}"
+        = "{% for timeline in site.data.timeline %}"
+        = "{% if timeline.language == page.language %}"
+        = "{% include timeline.html events=timeline.events %}"
+        = "{% endif %}"
+        = "{% endfor %}"
 
   .about-world
     .about-world-title<>
