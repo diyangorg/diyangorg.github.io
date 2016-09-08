@@ -1,10 +1,10 @@
 #footer.footer<>
+  .footer-head<>
+    %i<>
   .footer-content<>
     .container<>
       .row<>
         .seven.columns<>
-          %a.status{href: "#", target: "_blank"}<>
-            %i.fa.fa-quote-left<>
           %ul.status<>
             = "{% for status in site.data.status limit:3 %}"
             %li.status<>
@@ -69,8 +69,6 @@
                 %strong.hide{lang: "ja"}<> リンク
               %li<>
                 %a{href: "https://www.linkedin.com/in/di-yang-a587636b", target: "_blank"}<> LinkedIn
-              %li<>
-                %a{href: "https://github.com/diyangorg", target: "_blank"}<> Github
           .three.columns<>
             %ul<>
               %li<>

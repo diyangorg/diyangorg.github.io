@@ -1,9 +1,7 @@
 DI_TARGET = di.css
 DI_SOURCES = \
-	opensans/opensans.css \
 	normalize.css \
 	skeleton.css \
-	fontawesome/fontawesome.css \
 	animation.css \
 	di/di.sass.css \
 	jvm.css \
@@ -16,8 +14,8 @@ all: ../static/css/$(DI_TARGET)
 	mkdir -p ../static/css
 	cat $(DI_TARGET) | sed 's/\/\*!/\/**/g' | yui-compressor --type css > ../static/css/$(DI_TARGET)
 
-$(DI_TARGET): $(DI_SOURCES)
-	cat $(DI_SOURCES) > $(DI_TARGET)
+$(DI_TARGET): $(DI_SOURCES) ./opensans/*.*
+	( ./opensans/opensans.bash; cat $(DI_SOURCES) ) > $(DI_TARGET)
 
 %.sass.css: %.sass $(shell find . -type f -iname _\*.sass)
 	cat $< | sass --compass --load-path . > $<.css

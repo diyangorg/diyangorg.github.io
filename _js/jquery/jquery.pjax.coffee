@@ -190,7 +190,7 @@
 
   # add the state property to jQuery's event object so we can use it in
   # $(window).bind('popstate')
-  $.event.props.push 'state' if $.inArray('state', $.event.props) < 0
+  # $.event.props.push 'state' if $.inArray('state', $.event.props) < 0
 
   # is pjax supported by this browser?
   # pushState isn't reliable on iOS until 5
