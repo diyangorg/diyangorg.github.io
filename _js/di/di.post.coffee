@@ -19,8 +19,8 @@ di.namespace 'di.post', (exports) ->
     # set up highlight
     $.each content.find('img'), ->
       alt = $(@).attr('alt')
-      return unless alt and alt.startsWith('# ')
-      $(@).attr 'alt', alt.substring(2).trim()
+      return unless alt and alt.startsWith('+')
+      $(@).attr 'alt', alt.substring(1).trim()
 
       container = $(@).parents('.container')
       parent = $(@)
@@ -41,7 +41,7 @@ di.namespace 'di.post', (exports) ->
     $.each content.find('img'), ->
       caption = $(@).attr('alt').trim()
       return unless caption
-      
+
       container = $(@).parents('.container,.highlight')
       parent = $(@)
       while parent.parent()[0] != container[0]
