@@ -9,13 +9,13 @@ subtitle:
 introduction:
   en: >
     <h1>Hello, I'm <a href="/about/">Di Yang</a>.</h1>
-    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+    <h2> How are you ? </h2>
   zh: >
     <h1>你好，我是<a href="/关于/">杨迪</a>。</h1>
     <h2>我就是填充文字，不要理我哦。</h2>
   ja: >
     <h1>こんにちは、私は<a href="/紹介/">アンディ</a>です。</h1>
-    <h2>時間があるか分かりません。 私はいつも不思議な性格の方が好きだった。 すぐに諦めて昼寝をするかも知れない。 知らない。</h2>
+    <h2>自己紹介？わからんわ。　何をすればいいかな</h2>
 keywords: "Di,Di Yang,杨迪,アンディ"
 author:
   name: Di Yang
