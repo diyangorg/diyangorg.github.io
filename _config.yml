@@ -29,8 +29,7 @@ feed:
   en: /feed.xml
   zh: /订阅.xml
   ja: /フィード.xml
-static_url: //cdn.diyang.org/static
-media_url: //cdn.diyang.org/media
+static_url: /static
 
 debug: false
 analytics: UA-34085887-3
