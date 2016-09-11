@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello, world!
+title: Hello, world! 你好again ！
 cover: amazon-creek.jpg
 language: en
 categories: [en]
