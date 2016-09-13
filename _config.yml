@@ -5,7 +5,7 @@ title:
 subtitle:
   en: "Hello, I'm Di Yang."
   zh: "你好，我是杨迪。"
-  ja: "こんにちは、私はアンディです。"
+  ja: "アンディのブログへようこそ。"
 introduction:
   en: >
     <h1>Hello, I'm <a href="/about/">Di Yang</a>.</h1>
@@ -14,7 +14,7 @@ introduction:
     <h1>你好，我是<a href="/关于/">杨迪</a>。</h1>
     <h2>我就是填充文字，不要理我哦。</h2>
   ja: >
-    <h1>こんにちは、私は<a href="/紹介/">アンディ</a>です。</h1>
+    <h1><a href="/紹介/">アンディ</a>のブログへようこそ。</h1>
     <h2>自己紹介？わからんわ。　何をすればいいかな</h2>
 keywords: "Di,Di Yang,杨迪,アンディ"
 author:
